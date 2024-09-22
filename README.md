@@ -60,7 +60,7 @@ Now, access the app in your browser at `http://localhost:8501`.
 
 ## Usage
 
-- **Upload a CSV File**: Use the interface to upload your restaurant data in CSV format.
+- **Upload or Use a CSV File**: Use the interface to upload your restaurant data in CSV format. Otherwise, you can use the stored sample file called restaurants_with_coordinates.csv.
 - **Interactive Map**: The app shows the restaurants' locations on an interactive map.
 - **Graphical Visualizations**: Automatically generates bar charts and distribution charts based on restaurant ratings and other criteria.
 - **Filtering**: Filter restaurants based on rating or other factors provided in the dataset.
