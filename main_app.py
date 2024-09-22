@@ -10,6 +10,22 @@ import plotly.express as px
 # Load the dataset with latitude and longitude
 uploaded_file = st.sidebar.file_uploader("Upload your restaurant CSV file", type="csv")
 
+st.title("Restaurant Visualization and Analysis App")
+
+# Bio or description for the app with Markdown
+st.markdown("""
+### About This App
+
+This **Streamlit** application provides a user-friendly interface for visualizing and analyzing restaurant data. 
+
+Features include:
+- **Interactive Map**: View restaurants on a map.
+- **Filtering**: Filter restaurants by ratings and other attributes.
+- **Data Visualizations**: Generate dynamic charts using the data.
+
+Use this app to get insights into your restaurant dataset in a fun and interactive way!
+""")
+
 if uploaded_file is not None:
     data = pd.read_csv(uploaded_file)
 
